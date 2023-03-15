@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-fundamentals-methods.Main", "csharp-fundamentals-methods.Main\csharp-fundamentals-methods.Main.csproj", "{850F93B3-8836-49A0-A650-2A5F04C3FB02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-fundamentals-methods.Test", "csharp-fundamentals-methods.Test\csharp-fundamentals-methods.Test.csproj", "{21A7C0FA-5EBF-4C5D-AA77-CE43E0507AAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{850F93B3-8836-49A0-A650-2A5F04C3FB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850F93B3-8836-49A0-A650-2A5F04C3FB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850F93B3-8836-49A0-A650-2A5F04C3FB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850F93B3-8836-49A0-A650-2A5F04C3FB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21A7C0FA-5EBF-4C5D-AA77-CE43E0507AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A7C0FA-5EBF-4C5D-AA77-CE43E0507AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A7C0FA-5EBF-4C5D-AA77-CE43E0507AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21A7C0FA-5EBF-4C5D-AA77-CE43E0507AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47B70BA6-DEB8-4083-91E4-EE4094E412B7}
+	EndGlobalSection
+EndGlobal
