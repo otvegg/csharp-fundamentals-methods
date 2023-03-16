@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_fundamentals_methods.Main
 {
-    public class Exercise
+    public class Core
     {
         /*
             A method is a function, a single piece of logic that can run. In Java, a class is a convenient

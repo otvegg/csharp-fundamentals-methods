@@ -3,13 +3,13 @@ using NUnit.Framework;
 
 namespace csharp_fundamentals_methods.Test
 {
-    public class ExerciseTest
+    public class CoreTests
     {
-        Exercise exercise;
+        Core exercise;
 
-        public ExerciseTest()
+        public CoreTests()
         {
-            this.exercise = new Exercise();
+            this.exercise = new Core();
         }
 
         [Test]
