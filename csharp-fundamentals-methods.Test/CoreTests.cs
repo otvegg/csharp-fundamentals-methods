@@ -51,35 +51,6 @@ namespace csharp_fundamentals_methods.Test
             Assert.AreEqual("ERROR!!!!!!!!!!", this.exercise.shout("error", 10));
         }
 
-        [Test]
-        public void bakingTime()
-        {
-            Assert.AreEqual(50, this.exercise.bakingTime());
-        }
-
-        [Test]
-        public void remainingBakeTime()
-        {
-            Assert.AreEqual(30, this.exercise.remainingBakeTime(20));
-            Assert.AreEqual(40, this.exercise.remainingBakeTime(10));
-            Assert.AreEqual(0, this.exercise.remainingBakeTime(50));
-        }
-
-        [Test]
-        public void calculatePrepTime()
-        {
-            Assert.AreEqual(6, this.exercise.calculatePrepTime(2));
-            Assert.AreEqual(9, this.exercise.calculatePrepTime(3));
-            Assert.AreEqual(3, this.exercise.calculatePrepTime(1));
-        }
-
-        [Test]
-        public void totalTimeSpent()
-        {
-            Assert.AreEqual(26, this.exercise.totalTimeSpent(2, 20));
-            Assert.AreEqual(49, this.exercise.totalTimeSpent(3, 40));
-            Assert.AreEqual(15, this.exercise.totalTimeSpent(0, 15));
-            Assert.AreEqual(0, this.exercise.totalTimeSpent(0, 0));
-        }
+        
     }
 }

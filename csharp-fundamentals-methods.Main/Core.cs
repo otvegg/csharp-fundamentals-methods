@@ -9,7 +9,7 @@ namespace csharp_fundamentals_methods.Main
     public class Core
     {
         /*
-            A method is a function, a single piece of logic that can run. In Java, a class is a convenient
+            A method is a function, a single piece of logic that can run. In c#, a class is a convenient
             encapsulation of related state and behaviour; members contain state (values like ints, strings, etc.),
             and methods perform behaviours. You've been using String methods in previous exercises, now it's time
             to start writing your own.
