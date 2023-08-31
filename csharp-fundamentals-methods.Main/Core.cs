@@ -24,16 +24,13 @@ namespace csharp_fundamentals_methods.Main
             logic. See the example below and take some time to break it down and understand it.
          */
 
-        //TODO: 0. Example requirement
-        /*
-            Create a method that accepts a name and returns a greeting
-         */
+        //TODO: 1. Create a method that accepts a name and returns a greeting      
         public string greet(string name)
         {
             throw new NotImplementedException();
         }
 
-        //TODO: 1. Increment a number
+        //TODO: 2. Increment a number
         /*
             Complete this method so that it increases the number given by 1 and returns the result
          */
@@ -42,7 +39,7 @@ namespace csharp_fundamentals_methods.Main
             throw new NotImplementedException();
         }
 
-        //TODO: 2. Construct a friendly greeting
+        //TODO: 3. Construct a friendly greeting
         /*
             Complete this method so that it accepts a name as an input and outputs a friendly greeting
             with a smiley face. Example input and output:
@@ -58,7 +55,7 @@ namespace csharp_fundamentals_methods.Main
 
 
 
-        //TODO: 3. Construct an array of numbers
+        //TODO: 4. Construct an array of numbers
         /*
             Create a method named constructNumberArray that accepts two whole numbers named lower and upper.
             The method must return an array containing all the whole numbers between lower and upper,
@@ -81,7 +78,7 @@ namespace csharp_fundamentals_methods.Main
 
 
 
-        //TODO: 4. Shout at a dev
+        //TODO: 5. Shout at a dev
         /*
             Create a method named shout that accepts a string and a whole number.
             The method must return the same string in upper case with exclamation marks (!) appended to the end.

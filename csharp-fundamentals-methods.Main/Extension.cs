@@ -8,6 +8,7 @@ namespace csharp_fundamentals_methods.Main
 {
     public class Extension
     {
+        //TODO: Extension 1: Cake Baking Abilities!
         /*  1.
         We're going to improve our cake baking capabilities!
         Create a public method named timerStatus that accepts one parameter:
@@ -22,8 +23,8 @@ namespace csharp_fundamentals_methods.Main
         }
 
 
-
-        /*  2.
+        //TODO: Extension 2: Estimate Prep Time
+        /*  
             Create a method named estimatePrepTime that accepts two parameters:
             - an array of ingredients, e.g. ["sugar", "milk", "flour", "eggs"]
             - the prep time per ingredient in minutes
@@ -39,7 +40,7 @@ namespace csharp_fundamentals_methods.Main
 
 
 
-
+        //TODO: Extension 3: calculateGramsOfSugar that accepts two parameters 1 an array of ingredients that will always contain 3 ingredients AND  2 the number of layers the cake has. The cake will need 100g of sugar per layer, if that ingredient is present in the provided list of ingredients.             The method should return the number of grams of sugar needed to make the cake.
         /*  3.
             Create a method named calculateGramsOfSugar that accepts two parameters:
             - an array of ingredients that will always contain 3 ingredients
