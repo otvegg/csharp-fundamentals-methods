@@ -7,7 +7,8 @@
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
 - Open the csharp-fundamentals-methods.sln solution
-- Implement the requirements listed in Core.cs
+- The project should BUILD (try CTRL + SHIFT + B) to confirm this.
+- Implement the requirements listed in Core.cs & attempt Extension.cs for full marks.
 - When ready to test your solution, open the Test Explorer to run tests.
 
 ![](./assets/run_tests.png)

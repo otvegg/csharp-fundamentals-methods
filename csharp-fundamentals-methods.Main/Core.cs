@@ -30,7 +30,7 @@ namespace csharp_fundamentals_methods.Main
          */
         public string greet(string name)
         {
-            return "Hello " + name + "!";
+            throw new NotImplementedException();
         }
 
         //TODO: 1. Increment a number
@@ -39,7 +39,7 @@ namespace csharp_fundamentals_methods.Main
          */
         public int increment(int number)
         {
-            return number + 1;
+            throw new NotImplementedException();
         }
 
         //TODO: 2. Construct a friendly greeting
@@ -51,10 +51,12 @@ namespace csharp_fundamentals_methods.Main
             Nathan | Hi, Nathan :)
             Edward | Hi, Edward :)
          */
-        public string happilyGreet()
+        public string happilyGreet(string name)
         {
             throw new NotImplementedException();
         }
+
+
 
         //TODO: 3. Construct an array of numbers
         /*
@@ -68,6 +70,14 @@ namespace csharp_fundamentals_methods.Main
             -1, 1  | [-1,0,1]
          */
 
+        public int[] constructNumberArray(int lower, int upper)
+        {
+
+            int[] resultArray = { };
+
+            return resultArray;
+
+        }
 
 
 
@@ -83,7 +93,10 @@ namespace csharp_fundamentals_methods.Main
             error, 10   | ERROR!!!!!!!!!!
          */
 
-
+        public string shout(string phrase, int number)
+        {
+            return $"";
+        }
 
 
     }

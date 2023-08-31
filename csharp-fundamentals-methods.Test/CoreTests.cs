@@ -4,39 +4,37 @@ using NUnit.Framework;
 namespace csharp_fundamentals_methods.Test
 {
     public class CoreTests
-    {
-        Core exercise;
+    {      
 
-        public CoreTests()
+        [Test, Order(1)]
+        public void shouldGreetName()
         {
-            this.exercise = new Core();
+            Core exercise = new Core();
+            Assert.AreEqual("Hello Nathan!", exercise.greet("Nathan"));
         }
 
-        [Test]
-    public void shouldGreetName()
-        {
-            Assert.AreEqual("Hello Nathan!", this.exercise.greet("Nathan"));
-        }
-
-        [Test]
+        [Test, Order(2)]
         public void shouldIncrementNumber()
         {
-            Assert.AreEqual(1, this.exercise.increment(0));
-            Assert.AreEqual(6, this.exercise.increment(5));
+            Core exercise = new Core();
+            Assert.AreEqual(1, exercise.increment(0));
+            Assert.AreEqual(6, exercise.increment(5));
         }
 
-        [Test]
+        [Test, Order(3)]
         public void shouldFriendlyGreet()
         {
-            Assert.AreEqual("Hi, Nathan :)", this.exercise.happilyGreet("Nathan"));
-            Assert.AreEqual("Hi, Edward :)", this.exercise.happilyGreet("Edward"));
-            Assert.AreEqual("Hi, Lewis :)", this.exercise.happilyGreet("Lewis"));
+            Core exercise = new Core();
+            Assert.AreEqual("Hi, Nathan :)", exercise.happilyGreet("Nathan"));
+            Assert.AreEqual("Hi, Edward :)", exercise.happilyGreet("Edward"));
+            Assert.AreEqual("Hi, Lewis :)",  exercise.happilyGreet("Lewis"));
         }
 
-        [Test]
+        [Test, Order(4)]
         public void shouldConstructNumberArray()
         {
-            int[] nums = this.exercise.constructNumberArray(10, 13);
+            Core exercise = new Core();
+            int[] nums = exercise.constructNumberArray(10, 13);
             Assert.AreEqual(4, nums.Length);
             Assert.AreEqual(10, nums[0]);
             Assert.AreEqual(11, nums[1]);
@@ -44,11 +42,12 @@ namespace csharp_fundamentals_methods.Test
             Assert.AreEqual(13, nums[3]);
         }
 
-        [Test]
+        [Test, Order(5)]
         public void shouldShout()
         {
-            Assert.AreEqual("DISASTER!!!!!", this.exercise.shout("disaster", 5));
-            Assert.AreEqual("ERROR!!!!!!!!!!", this.exercise.shout("error", 10));
+            Core exercise = new Core();
+            Assert.AreEqual("DISASTER!!!!!", exercise.shout("disaster", 5));
+            Assert.AreEqual("ERROR!!!!!!!!!!", exercise.shout("error", 10));
         }
 
         
