@@ -10,6 +10,7 @@
 - The project should BUILD (try CTRL + SHIFT + B) to confirm this.
 - Implement the requirements listed in Core.cs & attempt Extension.cs for full marks.
 - When ready to test your solution, open the Test Explorer to run tests.
+- Remove "throw new NotImplementedException();" from the relevant method and replace with appropriate code for test to pass.  Examine test and run Test as Debug if needed.
 
 ![](./assets/run_tests.png)
 
