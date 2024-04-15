@@ -24,7 +24,7 @@ namespace csharp_fundamentals_methods.Main
             logic. See the example below and take some time to break it down and understand it.
          */
 
-        //TODO: 1. Create a method that accepts a name and returns a greeting      
+        //TODO: 1. Create a method that accepts a name and returns a greeting
         public string greet(string name)
         {
             throw new NotImplementedException();
@@ -53,8 +53,6 @@ namespace csharp_fundamentals_methods.Main
             throw new NotImplementedException();
         }
 
-
-
         //TODO: 4. Construct an array of numbers
         /*
             Create a method named constructNumberArray that accepts two whole numbers named lower and upper.
@@ -69,14 +67,10 @@ namespace csharp_fundamentals_methods.Main
 
         public int[] constructNumberArray(int lower, int upper)
         {
-
             int[] resultArray = { };
 
             return resultArray;
-
         }
-
-
 
         //TODO: 5. Shout at a dev
         /*
@@ -94,7 +88,5 @@ namespace csharp_fundamentals_methods.Main
         {
             return $"";
         }
-
-
     }
 }
